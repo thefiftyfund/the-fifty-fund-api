@@ -4,12 +4,20 @@
     {
       "src": "api/portfolio.py",
       "use": "@vercel/python"
+    },
+    {
+      "src": "api/dashboard.py",
+      "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/api/portfolio",
       "dest": "api/portfolio.py"
+    },
+    {
+      "src": "/api/dashboard",
+      "dest": "api/dashboard.py"
     }
   ]
 }
